@@ -7,8 +7,8 @@ with open("requirements.txt", "r") as fh:
     requires = [line for line in fh.read().splitlines() if line != ""]
 
 setup(
-	name='PassioGo',
-	version="0.2.2",
+	name='PassioGo_updated',
+	version="0.2.3",
 	description="An unofficial API for Passio Go",
 	long_description=long_description,
 	long_description_content_type='text/markdown',
